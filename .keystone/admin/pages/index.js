@@ -33,6 +33,12 @@ export default function Home() {
           CartItem: _allCartItemsMeta {
             count
           }
+          Order: _allOrdersMeta {
+            count
+          }
+          OrderItem: _allOrderItemsMeta {
+            count
+          }
         }
       `}
     />
